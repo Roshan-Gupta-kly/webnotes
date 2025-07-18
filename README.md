@@ -17,4 +17,6 @@
 >**8. State Management with Redux Toolkit**
 >
 >**9. Cloud Deployment (Vercel, VPS, CPanel)**
-
+>
+Full stack is the combination of client and server sides. the client side is handle by frontend developer and server side is handled by backend developer.
+So Full stack -> Frontend + Backend.
