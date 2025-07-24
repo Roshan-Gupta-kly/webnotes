@@ -1,22 +1,48 @@
-# webnotes
-```Full Stack Saas Development```
->**1. Node.js, Express.js, PostgreSQL, Sequelize**
->
->**2. React.js, Next.js, Tailwind CSS, ShadCN**
->
->**3. API Development & Integration**
->
->**4. Authentication & Security (JWT, Cookies, Tokens)**
->
->**5. Multitenant Architecture & SaaS Development**
->
->**6. Role-Based Authorization**
->
->**7. Payment Gateway Integration (Khalti, eSewa)**
->
->**8. State Management with Redux Toolkit**
->
->**9. Cloud Deployment (Vercel, VPS, CPanel)**
->
-Full stack is the combination of client and server sides. the client side is handle by frontend developer and server side is handled by backend developer.
-So Full stack -> Frontend + Backend.
++ item1
+- item1
+1. First item
+2. Second item
+   - Sub-item
+- - [x] Completed task
+  - [ ] - [ ] Incomplete task
+
+![Alt text](image_url)
+
+![Local Image](./image.png)
+
+[Link Text](https://example.com)
+
+[Link to Section](#section-name)
+
+*italic* or _italic_
+**bold** or __bold__
+***bold and italic***
+~~strikethrough~~
+
+This is a paragraph.
+
+This is another paragraph.
+
+Use the `git status` command.
+
+> This is a blockquote.
+>> Nested blockquote.
+
+| Column 1 | Column 2 |
+|----------|----------|
+| Value 1  | Value 2  |
+| Value 3  | Value 4  |
+
+---
+or
+***
+or
+___
+
+![badge](https://img.shields.io/badge/status-active-brightgreen)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
