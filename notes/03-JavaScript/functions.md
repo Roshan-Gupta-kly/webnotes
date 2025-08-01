@@ -108,3 +108,42 @@ const greetings = () => {
   console.log("Hello");
 };
 ```
+When first learning about functions, you had to wrap the function body in curly braces. But if your function body only contains a single line of code, you can remove the curly braces like this:
+
+```js
+const greetings = name => console.log("Hello, " + name + "👋");
+```
+It is important to note that removing the parentheses and curly braces for regular function syntax will not work. You will get errors if you tried to do something like this:
+
+```js
+// This will produce syntax errors 
+function greetings name console.log("Hello, " + name + "👋");
+```
+These types of one line functions only work if you are using the arrow function syntax. Another key concept is the `return` statement. Here is an example of using the arrow function syntax to calculate the area:
+
+```js
+const calculateArea = (width, height) => {
+  const area = width * height;
+  return area;
+};
+
+console.log(calculateArea(5, 3)); // 15
+```
+We are creating a variable inside the function called `area` and then returning that variable. But we could clean up our code a bit and return the calculation itself:
+
+```js
+const calculateArea = (width, height) => {
+  return width * height;
+};
+```
+If you tried to remove the curly braces and place the calculation on the same line, then you would get an `Uncaught SyntaxError: Unexpected token 'return'` message:
+
+```js
+const calculateArea = (width, height) => return width * height;
+```
+The reason why you are getting this error, is because you need to remove the `return` statement. When you remove that `return` statement, the error will disappear and the function will still implicitly return the calculation.
+
+```js
+const calculateArea = (width, height) => width * height;
+```
+So when should you use the arrow function syntax? Well, it depends. Many developers use it consistently in their personal projects. However, when working on a team, the choice usually depends on whether the existing codebase uses regular functions or arrow functions. In future lecture videos, we'll cover when to use arrow functions and when to avoid them.
