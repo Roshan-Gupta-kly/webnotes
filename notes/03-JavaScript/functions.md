@@ -82,3 +82,29 @@ greetings("Roshan"); // Hello, Roshan👋
 In this example, if no `argument` is provided for `name`, it defaults to `Guest`.
 
 In summary, functions allow you to write reusable and organized code. They can take inputs (parameters), perform actions, and return outputs.
+
+<hr/>
+
+***What are arrow functions, and how do they work?***
+
+ Another way to write functions in JavaScript is to create an arrow function expression. Here is how you can refactor the previous example to use arrow function syntax instead:
+
+ ```js
+const greetings = (name) => {
+  console.log("Hello, " + name + "👋");
+};
+```
+In this revised example, we are creating a `const` variable called `greetings` and assigning it an anonymous `function`. Most of the syntax will look familiar to you except for the missing function keyword and the addition of the arrow `(=>)` between the `name` parameter and the function body. If your parameter list only has one parameter in it, then you can remove the parentheses like this:
+
+```js
+const greetings = name => {
+  console.log("Hello, " + name + "👋");
+};
+```
+If your arrow function has no parameters, then you must use the parentheses like this:
+
+```js
+const greetings = () => {
+  console.log("Hello");
+};
+```
