@@ -1,2 +1,3 @@
 # FULL STACK WEB DEVELOPMENT COURSE
-## HTML - HyperText Markup Language
+## Contents
+1. [HTML](./notes/01-HTML/fundamentals)
