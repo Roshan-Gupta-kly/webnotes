@@ -2,6 +2,8 @@
 JavaScript is an Object Oriented Programming Languages.
 <hr>
 
+## Data Types
+
 **What is a data type, and what are the different data types in JavaScript?**
 
 In JavaScript, a data type refers to the kind of value a variable holds.
